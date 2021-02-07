@@ -1,0 +1,58 @@
+.stock{
+    margin-top: 20px;
+    
+}
+
+.search{
+    text-align: center;
+    margin: 50 auto auto;
+}
+.search-box{
+    height: 40px;
+    margin-top: 50px;
+}
+
+.search-button{
+    margin-left: 20px
+}
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    background-color: white;
+    margin: 15px auto auto;
+}
+
+.bar-container{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 10px auto auto;
+}
+
+.stock-title{
+    margin: 4px auto auto;
+    text-align: center;
+    font-size: small;
+}
+
+.sent-title{
+    margin: 5px auto auto;
+}
+.btn{
+    background-color: #1976d2;
+    color: white;
+    margin-left: 10px;
+    border-radius:0.2em;
+    position: relative;
+    padding: 10px;
+}
+
+.sub-text{
+    margin-top: 10px;
+}
+
+.footer{
+    margin-top: 50px;
+}

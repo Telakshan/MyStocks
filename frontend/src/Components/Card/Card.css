@@ -1,0 +1,11 @@
+.container{
+    max-width: 1000px;
+    margin: 20px auto;
+    border: blue solid 2px;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+li{
+    margin-bottom: 20px;
+}
