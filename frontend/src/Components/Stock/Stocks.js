@@ -42,7 +42,7 @@ const Stocks = () => {
   };
 
   const Search = () => {
-    const API_KEY = "2YMUA51JFBIJ7E6X";
+    const API_KEY = "FREE_API_KEY";
     const API_CALL = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=${searchTerm}&outputsize=compact&apikey=${API_KEY}`;
 
     let stockX = [];
@@ -67,7 +67,7 @@ const Stocks = () => {
     console.log(tickerMatch[searchTerm.toLowerCase()]);
     const NEWS_API = `https://newsapi.org/v2/everything?q=${
       tickerMatch[searchTerm.toLowerCase()]
-    }&from=${today}&sortBy=popularity&apiKey=bf0be14eb79f4aad8c4108fc7311b303`;
+    }&from=${today}&sortBy=popularity&apiKey=FREE_NEWS_API_KEY`;
     
     let news = [];
     let links = [];
