@@ -8,6 +8,6 @@
 
 ![alt text](https://github.com/Telakshan/MyStocks/blob/main/Images/img2.PNG)
 
-## Check it out here [My Stocks on heroku!](https://thilakshan-mystocks.herokuapp.com)
+## Check it out here [My Stocks on heroku!](https://thilakshan-mystocks.herokuapp.com) (Please be aware that free version of heroku is very slow when booting up initially. On the first hit it gets loaded and stays loaded until some time passes without anyone accessing it.)
 
 ## Uses reactjs for the frontend and python for the backend
